@@ -1,0 +1,5 @@
+$source = new XmlExtractor("path/to/tag", "/path/to/file.xml");
+foreach ($source as $tag) {
+    echo $tag->field1;
+    echo $tag->field2->subfield1;
+}
